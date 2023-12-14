@@ -162,9 +162,6 @@ class _HomeState extends State<Home> {
                 child: TextFormField(
                   controller: _userController,
                   textInputAction: TextInputAction.done,
-                  inputFormatters: [
-                    LengthLimitingTextInputFormatter(20),
-                  ],
                   onFieldSubmitted: (value) {
                     if (value.trim().isNotEmpty) {
                       _homeStore.addItem(value);
