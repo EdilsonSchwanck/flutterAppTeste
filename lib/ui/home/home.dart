@@ -178,7 +178,7 @@ class _HomeState extends State<Home> {
                   },
                   decoration: InputDecoration(
                     filled: true,
-                    fillColor: const Color.fromARGB(255, 223, 222, 222),
+                    fillColor: const Color.fromARGB(255, 248, 248, 248),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10.0),
                       borderSide: BorderSide.none,
